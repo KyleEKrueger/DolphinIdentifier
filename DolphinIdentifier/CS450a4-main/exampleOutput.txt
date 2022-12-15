@@ -1,0 +1,30 @@
+Model: "Rocky"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 100)               2100      
+                                                                 
+ dense_1 (Dense)             (None, 100)               10100     
+                                                                 
+ dense_2 (Dense)             (None, 100)               10100     
+                                                                 
+ dense_3 (Dense)             (None, 2)                 202       
+                                                                 
+=================================================================
+Total params: 22,502
+Trainable params: 22,502
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/4
+8898/8898 [==============================] - 8s 884us/step - loss: 21241.6035 - categorical_accuracy: 0.7519
+Epoch 2/4
+8898/8898 [==============================] - 8s 885us/step - loss: 17841.0586 - categorical_accuracy: 0.8029
+Epoch 3/4
+8898/8898 [==============================] - 8s 885us/step - loss: 16696.2734 - categorical_accuracy: 0.8181
+Epoch 4/4
+8898/8898 [==============================] - 8s 889us/step - loss: 15931.4434 - categorical_accuracy: 0.8283
+2904/2904 [==============================] - 2s 548us/step - loss: 6.7982 - categorical_accuracy: 0.8166
+2904/2904 [==============================] - 1s 469us/step
+Error Rate: 0.18339145183563232
+
+Process finished with exit code 0
